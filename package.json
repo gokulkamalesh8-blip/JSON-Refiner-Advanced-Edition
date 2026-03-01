@@ -1,0 +1,20 @@
+{
+  "name": "json-refiner",
+  "version": "1.0.0",
+  "description": "A powerful JSON refinement tool for validation, cleaning, and transformation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "example": "node examples/basic-usage.js"
+  },
+  "keywords": ["json", "validator", "cleaner", "transformer", "data-refinement"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "json-schema-ref-parser": "^9.0.9",
+    "lodash": "^4.17.21",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  }
+}
